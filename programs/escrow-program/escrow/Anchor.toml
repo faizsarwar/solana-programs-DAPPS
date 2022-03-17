@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+escrow = "6hFX1XNJQ9M9QHbTo8959QAt9NywQ3GpDcZagYGXb5mC"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/faiz/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+mysol_app = "AoKm5PqnPdzrEZPcgEWvBnbaAN8G9DMCULcWTGRGqPFw"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/faiz/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
